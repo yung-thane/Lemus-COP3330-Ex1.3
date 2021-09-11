@@ -16,7 +16,9 @@ public class PrintingQuotes {
         Scanner name = new Scanner(System.in);
         String name1 = name.nextLine();
 
-        System.out.printf("%s says, \"%s.\"",name1,quote1);
+        String sentence1 = " says, \"";
+        String sentence2 = ".\"";
+        System.out.println(name1 + sentence1 + quote1 + sentence2);
 
 
 
